@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Music" ID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Music" ID="{073AA422-8438-4595-879F-C9C59D4914D1}">
+					<ChildrenList>
+						<Action Name="" ID="{2784F671-946F-419C-A246-3951802F307D}" ShortID="184265368">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wwise 201 Music" ID="{6463A517-0579-4034-9D9F-5C10C614DD60}" WorkUnitID="{25784DDF-F959-48B4-A3A6-D457CF13E563}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6FA72F90-2B1E-4D8F-970D-D1071AD60546}" ShortID="689647821">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gameplay" ID="{43F74036-9C8B-48E0-A58E-C2D50FE727C4}" WorkUnitID="{455314EC-554E-45C0-B2CE-9BCDA755CD52}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D4031DC8-7E73-4BE5-9574-8982804E1BFE}" ShortID="768184316">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wwise 201 Music" ID="{6463A517-0579-4034-9D9F-5C10C614DD60}" WorkUnitID="{25784DDF-F959-48B4-A3A6-D457CF13E563}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Boss_Start" ID="{BA4FF080-7A4D-400D-B188-CB9939E45BE5}">
+					<ChildrenList>
+						<Action Name="" ID="{5CDF2231-D4F1-4B40-9844-4B33E2B0E8B1}" ShortID="1006141677">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boss" ID="{560DAA33-7BFB-40A0-AC96-FAAFAE90C555}" WorkUnitID="{455314EC-554E-45C0-B2CE-9BCDA755CD52}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Map_Completed" ID="{66F07DAB-F154-4693-B6C2-BC0BDD97FA56}">
+					<ChildrenList>
+						<Action Name="" ID="{DE09B7FE-536F-45B4-99B8-B9E20D749CC2}" ShortID="924047785">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Victory" ID="{9D4E034F-41EC-4FF1-ACC3-389B09BADEF7}" WorkUnitID="{455314EC-554E-45C0-B2CE-9BCDA755CD52}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monsters_Aware" ID="{3C92B065-A725-4195-8654-939ED8E3190E}">
+					<ChildrenList>
+						<Action Name="" ID="{305CE25B-BDE7-4AB7-9A09-7D0545BB9CF2}" ShortID="625721168">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EnemyAware" ID="{C12B3097-46D2-469C-BA09-0F9BD04EBEA2}" WorkUnitID="{F1AF485C-C877-4808-B263-879FAD5CFB69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Monsters_Unaware" ID="{A9950EB0-D462-4098-ADA7-5B021383F4D9}">
+					<ChildrenList>
+						<Action Name="" ID="{203BEBF2-8A41-4EF9-8917-BD6D4A73BD0D}" ShortID="203009878">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EnemyAware" ID="{C12B3097-46D2-469C-BA09-0F9BD04EBEA2}" WorkUnitID="{F1AF485C-C877-4808-B263-879FAD5CFB69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Story_Start" ID="{E0D39BC0-B819-4001-AE92-73AD1426EDA1}">
+					<ChildrenList>
+						<Action Name="" ID="{DE17CCD5-2971-4FD3-8D8F-7106DF811C94}" ShortID="786606603">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Story" ID="{AEDB1900-473B-4612-B981-E1AD3FAB08E2}" WorkUnitID="{455314EC-554E-45C0-B2CE-9BCDA755CD52}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Story_End" ID="{C08EF6F8-827C-4D77-96B8-ABC152C4F5A6}">
+					<ChildrenList>
+						<Action Name="" ID="{04C37247-4588-4138-ADD8-B1974FC99298}" ShortID="790011140">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gameplay" ID="{43F74036-9C8B-48E0-A58E-C2D50FE727C4}" WorkUnitID="{455314EC-554E-45C0-B2CE-9BCDA755CD52}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
